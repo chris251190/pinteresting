@@ -19,7 +19,6 @@ $panel-default-border: #2c3e50;
 $panel-primary-text: #ecf0f1;
 $panel-default-text: #ecf0f1;
 
-
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
@@ -29,5 +28,25 @@ $panel-default-text: #ecf0f1;
 
 .navbar-brand {
      font-weight: bold;
+}
+
+.checkbox input[type="checkbox"] {
+	margin-left: 0px;
+}
+
+.new_pin input[type="text"] {
+	color: #000;
+}
+
+form.new_pin *{
+	margin-bottom: 1%;
+}
+
+.edit_pin input[type="text"] {
+	color: #000;
+}
+
+form.edit_pin *{
+	margin-bottom: 1%;
 }
 
