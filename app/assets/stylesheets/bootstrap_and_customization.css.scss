@@ -21,6 +21,7 @@ $panel-default-text: #ecf0f1;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
      text-align: center;
@@ -49,4 +50,9 @@ form.new_pin *{
 form.edit_pin *{
 	margin-bottom: 1%;
 }
+
+.panel-heading {
+	background-color: #334A61 !important;
+}
+
 
